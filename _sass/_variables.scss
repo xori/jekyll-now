@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Mono:300,400';
 
 //
 // VARIABLES
@@ -15,9 +16,9 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$helvetica: "Roboto Mono", Consolas, mono;
+$helveticaNeue: "Roboto Mono", Consolas, mono;
+$georgia: "Permanent Marker", Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
