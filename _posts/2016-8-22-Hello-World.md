@@ -5,9 +5,9 @@ title: "Last login: Mon Aug 22 16:14:39 2016 from 10.2.1.12"
 
 <code>
 Last login: Mon Aug 22 16:14:39 2016
-evan@verworn.ca ~ $ uptime
+evan@EMBER ~ $ uptime
 <span uptime></span>
-evan@verworn.ca ~ $ <span class="blinking-cursor">|</span>
+evan@EMBER ~ $ <span class="blinking-cursor">|</span>
 </code>
 
 
@@ -78,12 +78,12 @@ code {
   var now = moment()
   var then = moment(1471896879000)
   var result = " ";
-  
+
   result += now.format('HH:MM:SS') +
   	" up " + now.diff(then, 'days') + " days, " +
     (now.diff(then, "hours") % 24) + ":" +
-    (now.diff(then, "minutes") % 60) + 
+    (now.diff(then, "minutes") % 60) +
     ", u users, load average: 0.04 0.12 0.09"
-  
+
   cmd.innerHTML = result;
 </script>
